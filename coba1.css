@@ -1,0 +1,139 @@
+*,
+html {
+    /* Agar ketika membuat navbar bagian dari atas kanan bawah kiri margin dan padding di 0 kan yang semula pengaturannya jaraknya default 2px biar tidak terlihat sisa jarak*/
+    margin: 0; 
+    padding: 0;
+}
+
+.container-navbar {
+    background-color: #6c50c4;
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 15px;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.li-navbar:hover {
+    background-color:#d2298f;
+    transition: .3s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 10px;
+}
+
+.a-navbar {
+    color: white; 
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.container-content {
+    background-color: #FBECE5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.a-content {
+    background-color: #FEF3EE;
+    font-size: 20px;
+    height: 480px;
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 80px;
+    box-shadow: 10px 10px 5px 0px rgba(184,163,163,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(184,163,163,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(184,163,163,0.75);
+}
+
+.aabout-content {
+    background-color: #FEF3EE;
+    font-size: 15px;
+    color: white;
+    height: 480px;
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 80px;
+    box-shadow: 10px 10px 5px 0px rgba(184,163,163,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(184,163,163,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(184,163,163,0.75);
+}
+
+.text-contentdesc {
+    background-color: #FEF3EE;
+    height: 300px;
+    width: 400px;
+    flex-direction: column;
+    border-radius: 80px;
+    box-shadow: 10px 10px 5px 0px rgba(184,163,163,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(184,163,163,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(184,163,163,0.75);
+}
+
+.h2-about-content {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.p-content {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.p-about-content {
+    background-color: #c22ca3;
+    border-radius: 5px;
+}
+
+.img-content {
+    width: 300px;
+    height: 300px;
+}
+
+.img-about-content {
+    width: 240px;
+    height: 320px;
+    border-radius: 20px;
+}
+
+
+.container-footer {
+    background-color: #fcb35c;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-footer {
+    font-size: 17px;
+    color: white;
+}
